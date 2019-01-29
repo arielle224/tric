@@ -1,35 +1,73 @@
 <!DOCTYPE html>
- <meta charset="utf-8">
+ <meta charset="utf-8" lang="en">
 <head>
  <style>
- body{
-  background-color: #018B98;
-  text-align: center;
-  color: white;
-  font-size: 16px;
+html{
+ background-color: #018B98;
+ color: white;
   }
-  div{
-   margin: 0 auto;
-   height: 75%; 
-   width: 215px;
+.flex-container{
+ margin: auto;
+ height: auto;
+ width: 300px;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
   }
-  .safe{
+.link{
+ font-family: serif;
+ text-decoration: none;
+ color: white;
+ padding-top: 30px;
+ padding-bottom: 30px;
+  }
+  .link a{
+   font-family: serif;
+   font-weight: bolder;
+  }
+  h2{
+   font-size: 30px;
+   margin: 40px 0 30px 0;
+  }
+  
+  .main h1{
+   font-family: sans-serif;
+   font-size: 80px;
+   margin: -20px;
+   height: auto;
+   text-align: center;
+  }
+  
+  .text{
+   color: #D2DC85;
+   font-family: serif;
+   font-weight: 540;
+  }
+  .green{
    color: #D2DC85;
   }
-  .link{
-  text-decoration: none;
+  img{
+   height: 75px;
+   width: 75px;
   }
  </style>
- <div>
  <title>Tri.C Play it Safe</title></head>
     <body>
-        <h1>PAY IT</h1>
-     <p><h1 class="safe">SAFE</h1>
-<h2>Starting Feb. 1, 2019</h2>
-        <p class="safe"> For your security, we will no longer accept credit card payments over the phone. We will continue to accept cash and check payments at the Enrollment Centers, and credit card and check payments online.</p>
-    <p class="link">Visit <a href="http://www.tri-c.edu/paying-for-college" target="_blank"> www.tri-c.edu/paying-for-college </a> for more information</p>
-        <p><img src="https://www.tri-c.edu/_files/images/logo.png" alt="triclogo">
-        </p>
-<p><a href="tel:+1-216-987-6000">+1 (216) 987-6000</a>
-     </div></body>
+         <div class="flex-container">
+          <div class="main"><h1>PAY IT</h1>
+           <p><h1 class="green">SAFE</h1></div>
+          
+          <div><h2>Starting Feb. 1, 2019</h2></div>
+        <div class="text"> For your security, we will no longer accept credit card payments over the phone. 
+         We will continue to accept cash and check payments at the Enrollment Centers, and credit card and check 
+         payments online.</div>
+          
+          <div class="link">Visit <a href="http://www.tri-c.edu/paying-for-college" target="_blank">
+           www.tri-c.edu/paying-for-college 
+           </a> for more information</p>
+        </div>
+         <div class="logo"><img src="https://gylld2s51hq167qcb48di61u-wpengine.netdna-ssl.com/wp-content/uploads/cuyahoga-cc-CS-logo.jpg">
+          <p><a href="tel:+1-216-987-6000">+1 (216) 987-6000</a></div>
+     </div>
+</body>
 </html>
